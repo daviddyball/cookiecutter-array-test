@@ -1,5 +1,5 @@
 {{ cookiecutter }}
 Multiple entries should appear below based on "array" parameter input:
-{% for item in cookiecutter.array -%}
+{% for item in cookiecutter.nested.array -%}
 - {{ item }}
 {% endfor %}

@@ -1,3 +1,4 @@
+{{ cookiecutter }}
 Multiple entries should appear below based on "array" parameter input:
 {% for item in cookiecutter.array -%}
 - {{ item }}
